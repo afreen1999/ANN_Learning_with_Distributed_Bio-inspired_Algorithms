@@ -1,6 +1,6 @@
-Objective - String with difference in values = 100
-for e.g.:- |a-z| = |1-26| = 25
-So - AZAZAZAZAZ [one of the solutions]
+# Objective - String with difference in values = 100
+# for e.g.:- |a-z| = |1-26| = 25
+# So - AZAZAZAZAZ [one of the solutions which is not currect]
 
 import random
 import string
