@@ -21,7 +21,8 @@
 
 *Invasive-weed optimization operators*
 
-*(from Cuevas, E., Barocio Espejo, E., & Conde Enríquez, A. (2019). Non-conventional Overcurrent Relays Coordination ![can be found here](doi:10.1007/978-3-030-11593-7_3))*
+*(from Cuevas, E., Barocio Espejo, E., & Conde Enríquez, A. (2019). Non-conventional Overcurrent Relays Coordination)* 
+[can be found here](https://doi:10.1007/978-3-030-11593-7_3/)
 
 
 The initial steps are similar to a GA implementation, a possible system solution is known as weed and the weed population is randomly created and then evaluated.
@@ -32,5 +33,4 @@ The members of the population are allowed to leave a n seeds (S) depending on th
 Spreading operator explores the search space, dispersion one exploits the weed location, and the rolling-down combines these methods to improve the actual solution. Altogether the invasive-weed operators permit a rapid exploration and exploitation of the search space. 
 
 In addition, mutation-based operators create new settings instead of performing crossover operations, requiring less computational effort.
-
 
