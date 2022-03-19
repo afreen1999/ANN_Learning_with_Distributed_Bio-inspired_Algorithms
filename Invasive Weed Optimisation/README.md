@@ -10,7 +10,7 @@
 3.6 If the number of Weeds > some threshold <br>
     - Then *Eliminate* the Weeds with lower fitness
 4. Weed with the best fitness is the final solution 
-
+5. Stop
 
 
 |![image](https://user-images.githubusercontent.com/51333577/159119544-c374e839-1ba3-4eee-92fc-2439cbd2a037.png)|
