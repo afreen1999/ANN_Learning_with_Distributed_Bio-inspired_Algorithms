@@ -1,3 +1,8 @@
+# Objective - String with difference in values = 100
+# for e.g.:- |a-z| = |1-26| = 25
+# So - AZAZAZAZAZ [one of the solutions which is not currect]
+# One of the correct solution - ZAZAAAAAAZ [25+25+25+0+0+0+0+0+25 = 100]
+
 import random
 import string
 from matplotlib import pyplot as plt
@@ -48,7 +53,7 @@ class GeneticAlgorithm():
 
             minv = 0                                                    # minimum difference possible between each adjacent position [when both are same]
                                                                         # e.g - ord(A)-ord(A) = 0
-                                                                        # i.e, total minimum difference possible = 25*9 [e.g. - AAAAAAAAAA]
+                                                                        # i.e, total minimum difference possible = 0*9 = 0 [e.g. - AAAAAAAAAA]
             
             
             # Calculating the fitness (in our case, the total difference for a string) 
