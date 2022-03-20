@@ -1,6 +1,7 @@
 # Objective - String with difference in values = 100
 # for e.g.:- |a-z| = |1-26| = 25
 # So - AZAZAZAZAZ [one of the solutions which is not currect]
+# One of the correct solution - ZAZAAAAAAZ [25+25+25+0+0+0+0+0+25 = 100]
 
 import random
 import string
